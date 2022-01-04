@@ -19,8 +19,7 @@ public class Aula02Java {
 		c2.status();
 		c2.rabiscar();
 	
-		//Testar essa bagaça de commit
-		//eh isto
+		//Teste para commit
 	}
 	
 }
