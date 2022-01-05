@@ -19,7 +19,14 @@ public class Aula02Java {
 		c2.status();
 		c2.rabiscar();
 	
-		//Teste para commit
+		System.out.println("---------Caneta 3--------");
+		Caneta c3 = new Caneta();
+		c3.modelo = "Rainha das Canetas";
+		c3.cor = "Preta";
+		c3.destampar();
+		c3.status();
+		c3.rabiscar();
+		
 	}
 	
 }
