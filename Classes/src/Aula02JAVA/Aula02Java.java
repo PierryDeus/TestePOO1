@@ -3,6 +3,7 @@ public class Aula02Java {
 	public static void main(String[] args) {
 		System.out.println("-------Caneta 1-------");
 		Caneta c1 = new Caneta();
+		c1.modelo = "Caran d'Ache";
 		c1.cor = "Azul";
 		c1.ponta = 0.5f;  // chamada para atributos
 		c1.carga = 57; 
@@ -26,6 +27,14 @@ public class Aula02Java {
 		c3.destampar();
 		c3.status();
 		c3.rabiscar();
+		
+		System.out.println("----------Caneta 4----------");
+		Caneta c4 = new Caneta();
+		c4.modelo = "Caneta Final dos Testes"; //pegando de volta o Javinha
+		c4.cor = "Rosa";
+		c4.tampar();
+		c4.status();
+		c4.rabiscar();	
 		
 	}
 	
